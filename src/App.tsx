@@ -1,26 +1,66 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Fragment } from "react";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import AboutMe from "./components/AboutMe";
+import TechStack from "./components/TechStack";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import { Element } from "react-scroll";
+import Footer from "./components/Footer";
 
-function App() {
+const App = () => {
+  const SECTIONS = [
+    {
+      id: "hero",
+      component: Hero,
+    },
+    {
+      id: "about-me",
+      component: AboutMe,
+    },
+    {
+      id: "tech-stack",
+      component: TechStack,
+    },
+    {
+      id: "experience",
+      component: Experience,
+    },
+    {
+      id: "education",
+      component: Education,
+    },
+    {
+      id: "projects",
+      component: Projects,
+    },
+    {
+      id: "contact-me",
+      component: Contact,
+    },
+    {
+      id: "footer",
+      component: Footer,
+    }
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Header />
+      <div className="container px-5">
+        {SECTIONS?.map((section) => {
+          const { id, component: Component } = section;
+          return (
+            <Element name={id} className="element">
+              <Component />
+            </Element>
+          );
+        })}
+      </div>
+    </Fragment>
   );
-}
+};
 
 export default App;
