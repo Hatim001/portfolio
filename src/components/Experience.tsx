@@ -17,31 +17,31 @@ const Experience = (props: Props) => {
           <div className="mt-3">
             <div className="py-4">
               <div className="desc">
-                <h4>UX & Interaction Designer</h4>
-                <p>The Bee Company</p>
+                <h4>Software Developer</h4>
+                <p>CrelioHealth</p>
               </div>
               <div>
-                <p>2020 - 2020</p>
+                <p>June 2021 - July 2023</p>
               </div>
             </div>
 
             <div className="py-4">
               <div className="desc">
-                <h4>jobPosition</h4>
-                <p>company</p>
+                <h4>Software Engineer Intern</h4>
+                <p>TritaTech</p>
               </div>
               <div>
-                <p>startYear - endYear</p>
+                <p>January 2021 - May 2021</p>
               </div>
             </div>
 
             <div className="py-4">
               <div className="desc">
-                <h4>jobPosition</h4>
-                <p>company</p>
+                <h4>Java Developer Intern</h4>
+                <p>Godrej Infotech Ltd.</p>
               </div>
               <div>
-                <p>startYear - endYear</p>
+                <p>June 2019 - July 2019</p>
               </div>
             </div>
           </div>

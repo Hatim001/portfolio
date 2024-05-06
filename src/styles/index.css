@@ -113,9 +113,9 @@ body {
 .progress-style {
   width: 400px;
 }
-@media (max-width: 412px) {
+@media (max-width: 500px) {
   .progress-style {
-    width: 300px;
+    max-width: 100%;
   }
 }
 .interests .icon-box {

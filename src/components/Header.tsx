@@ -56,8 +56,8 @@ const Header: React.FC = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ms-auto">
-            {LINKS?.map((link) => (
-              <li className="nav-item">
+            {LINKS?.map((link, index: number) => (
+              <li className="nav-item" key={index}>
                 <Link
                   activeClass="active"
                   className="nav-link cursor-pointer"

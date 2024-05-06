@@ -11,31 +11,21 @@ const Education = (props: Props) => {
         <div className="col-md-10">
           <div className="py-4">
             <div className="desc">
-              <h4>Master Degree in Computer Science</h4>
-              <p>Harvard University</p>
+              <h4>Master in Applied Computer Science</h4>
+              <p>Dalhousie University</p>
             </div>
             <div>
-              <p>2013 - 2014</p>
+              <p>September 2023 - December 2024</p>
             </div>
           </div>
 
           <div className="py-4">
             <div className="desc">
-              <h4>degree</h4>
-              <p>schoolName</p>
+              <h4>Bachelors in Computer Engineering</h4>
+              <p>University of Mumbai</p>
             </div>
             <div>
-              <p>startYear - endYear</p>
-            </div>
-          </div>
-
-          <div className="py-4">
-            <div className="desc">
-              <h4>degree</h4>
-              <p>schoolName</p>
-            </div>
-            <div>
-              <p>startYear - endYear</p>
+              <p>June 2016 - August 2020</p>
             </div>
           </div>
         </div>

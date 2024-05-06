@@ -10,6 +10,8 @@ import Contact from "./components/Contact";
 import { Element } from "react-scroll";
 import Footer from "./components/Footer";
 
+import "./styles/index.css";
+
 const App = () => {
   const SECTIONS = [
     {
@@ -50,10 +52,10 @@ const App = () => {
     <Fragment>
       <Header />
       <div className="container px-5">
-        {SECTIONS?.map((section) => {
+        {SECTIONS?.map((section, index: number) => {
           const { id, component: Component } = section;
           return (
-            <Element name={id} className="element">
+            <Element key={index} name={id} className="element">
               <Component />
             </Element>
           );
