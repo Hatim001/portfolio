@@ -1,10 +1,17 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.0782574d.js",
+    "main.css": "/portfolio/static/css/main.1c2e79f1.css",
+    "main.js": "/portfolio/static/js/main.a05bebde.js",
+    "static/media/vizwicket.png": "/portfolio/static/media/vizwicket.9c137ef4942992d8654c.png",
+    "static/media/dal-portfolio.png": "/portfolio/static/media/dal-portfolio.c02f218de6ec9da7f7aa.png",
+    "static/media/temperature-analysis.png": "/portfolio/static/media/temperature-analysis.b3c82b3f14ed64443f0f.png",
+    "static/media/re-facto.png": "/portfolio/static/media/re-facto.5e8980078a7aca93260d.png",
     "index.html": "/portfolio/index.html",
-    "main.0782574d.js.map": "/portfolio/static/js/main.0782574d.js.map"
+    "main.1c2e79f1.css.map": "/portfolio/static/css/main.1c2e79f1.css.map",
+    "main.a05bebde.js.map": "/portfolio/static/js/main.a05bebde.js.map"
   },
   "entrypoints": [
-    "static/js/main.0782574d.js"
+    "static/css/main.1c2e79f1.css",
+    "static/js/main.a05bebde.js"
   ]
 }
