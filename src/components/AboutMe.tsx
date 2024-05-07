@@ -73,7 +73,7 @@ const AboutMe = (props: Props) => {
                 <div className="progress progress-style">
                   <div
                     className="progress-bar color-1"
-                    style={{ width: "70%" }}
+                    style={{ width: "75%" }}
                   ></div>
                 </div>
               </div>
