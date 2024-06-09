@@ -1,8 +1,14 @@
-import React from "react";
+import HatimPic1 from "../assets/images/HatimPic1.jpg";
+import HatimPic2 from "../assets/images/HatimPic2.jpeg";
 
-type Props = {};
+const Hero = () => {
+  const images = [HatimPic1, HatimPic2];
 
-const Hero = (props: Props) => {
+  const getRandomImage = () => {
+    const randomIndex = Math.floor(Math.random() * images.length);
+    return images[randomIndex];
+  };
+
   return (
     <div className="landing">
       <div className="row vertical-center">
@@ -10,10 +16,10 @@ const Hero = (props: Props) => {
           <h1 className="display-1">Hatim Patrawala</h1>
           <p className="lead pl-2">Software Developer</p>
         </div>
-        <div className="col-lg-4 text-center my-auto pb-5 rounded-circle">
+        <div className="col-lg-4 text-center my-auto pb-5">
           <img
-            className="img-fluid rounded-circle"
-            src="https://picsum.photos/512"
+            className="img-fluid"
+            src={getRandomImage()}
             alt="Hatim Patrawala"
           />
         </div>
