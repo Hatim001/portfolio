@@ -59,7 +59,7 @@ const Header: React.FC = () => {
             {LINKS?.map((link, index: number) => (
               <li className="nav-item" key={index}>
                 <Link
-                  activeClass="active"
+                  activeClass="active fs-5"
                   className="nav-link cursor-pointer"
                   to={link.id}
                   spy={true}
