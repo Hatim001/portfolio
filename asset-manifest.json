@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1c2e79f1.css",
-    "main.js": "/portfolio/static/js/main.925b6a2d.js",
+    "main.js": "/portfolio/static/js/main.7d0f8e85.js",
     "static/media/HatimPic2.jpeg": "/portfolio/static/media/HatimPic2.eaa9151d40cb694f190f.jpeg",
+    "static/media/docgenie.png": "/portfolio/static/media/docgenie.4f433adf429a3987d09e.png",
     "static/media/HatimPic1.jpg": "/portfolio/static/media/HatimPic1.b36e72442c85a2432fc8.jpg",
     "static/media/vizwicket.png": "/portfolio/static/media/vizwicket.742fcca386abe8488582.png",
+    "static/media/guessme.png": "/portfolio/static/media/guessme.e8bcea30b524ff030d92.png",
     "static/media/dal-portfolio.png": "/portfolio/static/media/dal-portfolio.936cba0c2995a4b7a0f0.png",
     "static/media/re-facto.png": "/portfolio/static/media/re-facto.05b1d362769acdafa663.png",
     "static/media/temperature-analysis.png": "/portfolio/static/media/temperature-analysis.21bb6c1d510bcd2f9942.png",
@@ -14,10 +16,10 @@
     "static/media/gitcoatings.png": "/portfolio/static/media/gitcoatings.59c17db88d7a10f61fc1.png",
     "index.html": "/portfolio/index.html",
     "main.1c2e79f1.css.map": "/portfolio/static/css/main.1c2e79f1.css.map",
-    "main.925b6a2d.js.map": "/portfolio/static/js/main.925b6a2d.js.map"
+    "main.7d0f8e85.js.map": "/portfolio/static/js/main.7d0f8e85.js.map"
   },
   "entrypoints": [
     "static/css/main.1c2e79f1.css",
-    "static/js/main.925b6a2d.js"
+    "static/js/main.7d0f8e85.js"
   ]
 }
