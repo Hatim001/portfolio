@@ -1,6 +1,7 @@
 import CrelioHealth from "../assets/images/creliohealth.png";
 import PoiseCode from "../assets/images/poisecode.png";
 import Godrej from "../assets/images/godrej.png";
+import SpicerPegler from "../assets/images/spicerpegler.png";
 import GITCoatings from "../assets/images/gitcoatings.png";
 
 type Props = {};
@@ -9,9 +10,16 @@ const experiences = [
   {
     title: "Database and Cloud Developer",
     company: "GIT Coatings",
-    duration: "September 2024 - Present",
+    duration: "September 2024 - December 2024",
     website: "https://gitcoatings.com/",
     logo: GITCoatings,
+  },
+  {
+    title: "Full Stack Developer",
+    company: "Spicer Pegler",
+    duration: "August 2023 - September 2024",
+    website: "https://www.spicerpegler.com/",
+    logo: SpicerPegler
   },
   {
     title: "Software Developer",

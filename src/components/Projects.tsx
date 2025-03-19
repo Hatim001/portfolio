@@ -1,4 +1,6 @@
+import GuessMe from "../assets/images/guessme.png";
 import ReFacto from "../assets/images/re-facto.png";
+import DocGenie from "../assets/images/docgenie.png";
 import VizWicket from "../assets/images/vizwicket.png";
 import DalPortfolio from "../assets/images/dal-portfolio.png";
 import TemperatureAnalysis from "../assets/images/temperature-analysis.png";
@@ -22,11 +24,23 @@ const Projects = (props: Props) => {
       link: "https://vizwicket.netlify.app/",
     },
     {
+      title: "DocGenie",
+      description: "A powerful and intuitive application designed to bring the best features of Google Docs to your fingertips, with an added twist of AI-powered content generation. Whether you're drafting a document, brainstorming ideas, or crafting a resume, DocGenie is here to assist you with a seamless, user-friendly interface and cutting-edge technology.",
+      image: DocGenie,
+      link: "https://doc-genie.netlify.app/"
+    },
+    {
       title: "DalPortfolio",
       description:
         "Created a comprehensive University Portfolio Management System to streamline the presentation of academic and professional achievements.",
       image: DalPortfolio,
       link: "https://portfolio-dal.netlify.app/",
+    },
+    {
+      title: "Guess Me with Neural Networks",
+      description: "This project implements a 20 Questions game using a neural network to predict the animal the user is thinking of. The game interacts with the user through a Streamlit web app, asking up to 20 yes/no questions to guess the animal. The neural network is trained on a dataset of animals and their characteristics, and it learns to make better guesses over time as it is updated with new data.",
+      image: GuessMe,
+      link: "https://github.com/Hatim001/guess-me-with-neural-networks"
     },
     {
       title: "Temperature Analysis",
@@ -49,6 +63,7 @@ const Projects = (props: Props) => {
                 className="img-fluid border"
                 src={project?.image}
                 alt={project?.title}
+                style={{ objectFit: "contain", height: "250px", width: "400px" }}
               />
               <div className="text py-4 d-block">
                 <h3 className="heading">
